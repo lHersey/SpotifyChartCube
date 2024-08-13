@@ -1,0 +1,448 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d95dfb0b-4620-417e-9078-608064225d05" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DSV_SpotifyBI</ID>
+  <Name>DSV_SpotifyBI</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="15" scrolltop="-2514" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="91" x="13018" y="20373" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SpotifyCharts_Charts" left="10820" top="8432" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1468" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000bc050000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DIM_SpotifyCharts_Charts" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SpotifyCharts_DateOfChart" left="2720" top="13332" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3532" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000cc0d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DIM_SpotifyCharts_DateOfChart" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SpotifyCharts_Regions" left="20" top="8432" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1468" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000bc050000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DIM_SpotifyCharts_Regions" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SpotifyCharts_SongTrend" left="8120" top="13332" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1468" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000bc050000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DIM_SpotifyCharts_SongTrend" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SpotifyCharts_TrackInfo" left="5187" top="698" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3466" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00008a0d000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DIM_SpotifyCharts_TrackInfo" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FAC_SpotifyCharts_Charts" left="5420" top="7400" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="3532" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000cc0d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_FAC_SpotifyCharts_Charts" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7170" top="10632" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="2850" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_SongTrend]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9620" y="13332" />
+                    <point x="9620" y="12132" />
+                    <point x="7470" y="12132" />
+                    <point x="7470" y="10932" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3821" top="10632" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="2299" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_DateOfChart]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="4" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="4220" y="13332" />
+                    <point x="4220" y="12132" />
+                    <point x="5820" y="12132" />
+                    <point x="5820" y="10932" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8120" top="8767" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_Charts]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="12" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="10820" y="9166" />
+                    <point x="8420" y="9166" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="8767" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_Regions]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="6" sourceattachpoint="13" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3020" y="9166" />
+                    <point x="5420" y="9166" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6521" top="5199" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="2501" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_TrackInfo]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="6" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="6920" y="5698" />
+                    <point x="6920" y="7400" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>15</DiagramViewPortLeft>
+            <DiagramViewPortTop>-2514</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>91</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Datasource_SpotifyBI</DataSourceID>
+  <Schema>
+    <xs:schema id="DSV_SpotifyBI" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="DSV_SpotifyBI" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="b772fda5-59e0-43fc-94d3-e32d6e0fcff5">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_DIM_SpotifyCharts_Charts" msprop:design-time-name="1d77d02f-0763-47da-897a-999f2d017ddd" msprop:FriendlyName="DIM_SpotifyCharts_Charts" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_SpotifyCharts_Charts">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ChartId" msprop:FriendlyName="ChartId" msprop:DbColumnName="ChartId" msprop:design-time-name="7e4cb791-1869-43b5-a6df-063bf454e0cb" type="xs:long" />
+                  <xs:element name="ChartName" msprop:FriendlyName="ChartName" msprop:DbColumnName="ChartName" msprop:design-time-name="e97000e6-1517-4b37-b147-1c30bf6baa33" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="128" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_SpotifyCharts_DateOfChart" msprop:design-time-name="b177986a-50f5-464d-a366-de35dc13cf48" msprop:FriendlyName="DIM_SpotifyCharts_DateOfChart" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_SpotifyCharts_DateOfChart">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DateId" msprop:FriendlyName="DateId" msprop:DbColumnName="DateId" msprop:design-time-name="97c4b48a-2c26-4104-88a7-0f8645abe87a" type="xs:long" />
+                  <xs:element name="Date" msprop:FriendlyName="Date" msprop:DbColumnName="Date" msprop:design-time-name="d7cca0d4-46a8-4a15-8ebc-caa39201d9ba" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="64" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="0b3bfac0-e19a-43b8-82db-9a6f25ccf24c" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:design-time-name="1e0a9fe6-609f-4cd5-8d9b-4fd62459fdb2" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day" msprop:FriendlyName="Day" msprop:DbColumnName="Day" msprop:design-time-name="083e251f-ec4a-48c5-b86c-9d51c3eba172" type="xs:int" minOccurs="0" />
+                  <xs:element name="DayName" msprop:FriendlyName="DayName" msprop:DbColumnName="DayName" msprop:design-time-name="226df84b-d3a2-4118-b254-ebde32b3b0bc" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4000" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MonthName" msprop:FriendlyName="MonthName" msprop:DbColumnName="MonthName" msprop:design-time-name="04594b80-eae7-4537-a65d-93fe5bf546a6" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4000" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Quarter" msprop:FriendlyName="Quarter" msprop:DbColumnName="Quarter" msprop:design-time-name="5fc46ebf-bc9a-4608-9f9d-f9693c184761" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_SpotifyCharts_Regions" msprop:design-time-name="feae23b5-34d9-40a5-a4d5-7227f36d2316" msprop:FriendlyName="DIM_SpotifyCharts_Regions" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_SpotifyCharts_Regions">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="RegionId" msprop:FriendlyName="RegionId" msprop:DbColumnName="RegionId" msprop:design-time-name="d6805333-5d98-44e4-a9a5-76a4dc7c7345" type="xs:long" />
+                  <xs:element name="RegionName" msprop:FriendlyName="RegionName" msprop:DbColumnName="RegionName" msprop:design-time-name="ce994575-72dc-4918-9f75-89d48aea8454" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="64" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_SpotifyCharts_SongTrend" msprop:design-time-name="2eab3120-2a8d-4c7a-bfcb-e3d8c4bf3ca7" msprop:FriendlyName="DIM_SpotifyCharts_SongTrend" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_SpotifyCharts_SongTrend">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TrendId" msprop:FriendlyName="TrendId" msprop:DbColumnName="TrendId" msprop:design-time-name="0fadf5a8-d729-4689-948a-3b1d4b5c7194" type="xs:long" />
+                  <xs:element name="Trend" msprop:FriendlyName="Trend" msprop:DbColumnName="Trend" msprop:design-time-name="1d4c107b-566f-417c-8165-c2979cd876d7" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="128" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_SpotifyCharts_TrackInfo" msprop:design-time-name="79ccc1f3-2457-4129-856f-c60ff707682d" msprop:FriendlyName="DIM_SpotifyCharts_TrackInfo" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_SpotifyCharts_TrackInfo">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TrackId" msprop:FriendlyName="TrackId" msprop:DbColumnName="TrackId" msprop:design-time-name="66d214e1-c793-42a3-985b-ae4d6ae7d2e6" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="64" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Title" msprop:FriendlyName="Title" msprop:DbColumnName="Title" msprop:design-time-name="9ed0ea6e-9c08-43ee-84c1-179b7bbc60b3" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2048" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Artist" msprop:FriendlyName="Artist" msprop:DbColumnName="Artist" msprop:design-time-name="ed849fdf-d69a-4f64-9d7b-9b931709fee4" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2048" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Album" msprop:FriendlyName="Album" msprop:DbColumnName="Album" msprop:design-time-name="bb7c622b-2dd2-4675-992e-b6a2b3472aa8" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2048" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Explicit" msprop:FriendlyName="Explicit" msprop:DbColumnName="Explicit" msprop:design-time-name="2bcc2449-f834-4249-a517-181b47f6e793" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="URL" msprop:FriendlyName="URL" msprop:DbColumnName="URL" msprop:design-time-name="9079e126-aabf-4a2f-bf24-497d40076631" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="300" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AvailableMarkets" msprop:FriendlyName="AvailableMarkets" msprop:DbColumnName="AvailableMarkets" msprop:design-time-name="804fdb35-c106-4916-8841-cb88f6ff185c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2048" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ReleaseDate" msprop:FriendlyName="ReleaseDate" msprop:DbColumnName="ReleaseDate" msprop:design-time-name="8bbc7375-ce15-480b-823d-1694dc0038a4" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="64" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="744f753c-f7ff-474b-8979-99e23731cdea" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:design-time-name="0079c5a2-2c54-4e21-9e29-8019fb35e876" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day" msprop:FriendlyName="Day" msprop:DbColumnName="Day" msprop:design-time-name="2d7780f9-c94a-4c59-88b0-0587558c5f08" type="xs:int" minOccurs="0" />
+                  <xs:element name="DayName" msprop:FriendlyName="DayName" msprop:DbColumnName="DayName" msprop:design-time-name="55aff206-6f27-4acd-ae41-2b31cdafb146" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4000" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MonthName" msprop:FriendlyName="MonthName" msprop:DbColumnName="MonthName" msprop:design-time-name="376997be-5f77-4353-9d21-28cbd7c75be7" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4000" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Quarter" msprop:FriendlyName="Quarter" msprop:DbColumnName="Quarter" msprop:design-time-name="a7aa59b0-57e1-47e8-9b05-47ff956ebfa2" type="xs:int" minOccurs="0" />
+                  <xs:element name="Popularity" msprop:FriendlyName="Popularity" msprop:DbColumnName="Popularity" msprop:design-time-name="4e4f907e-459e-4afc-aa93-e081091ff038" type="xs:double" minOccurs="0" />
+                  <xs:element name="AFMode" msprop:FriendlyName="AFMode" msprop:DbColumnName="AFMode" msprop:design-time-name="6126907b-e7a3-4008-9c16-d42076543178" type="xs:double" minOccurs="0" />
+                  <xs:element name="AFLoudness" msprop:FriendlyName="AFLoudness" msprop:DbColumnName="AFLoudness" msprop:design-time-name="497f9b50-c509-42c1-ad76-ae8c2cc4c129" type="xs:double" minOccurs="0" />
+                  <xs:element name="AFDanceability" msprop:FriendlyName="AFDanceability" msprop:DbColumnName="AFDanceability" msprop:design-time-name="54e7e357-b319-4241-b23f-43e11dc20991" type="xs:double" minOccurs="0" />
+                  <xs:element name="AFEnergy" msprop:FriendlyName="AFEnergy" msprop:DbColumnName="AFEnergy" msprop:design-time-name="2658643d-2995-4004-9c7c-65d427398fee" type="xs:double" minOccurs="0" />
+                  <xs:element name="AFSpeechiness" msprop:FriendlyName="AFSpeechiness" msprop:DbColumnName="AFSpeechiness" msprop:design-time-name="6783dcf7-ca93-4bc5-b1f7-2ceb2af05f12" type="xs:double" minOccurs="0" />
+                  <xs:element name="AFAcousticness" msprop:FriendlyName="AFAcousticness" msprop:DbColumnName="AFAcousticness" msprop:design-time-name="f47f6d8f-4720-4507-b32d-e64f0d72fff6" type="xs:double" minOccurs="0" />
+                  <xs:element name="AFInstrumentalness" msprop:FriendlyName="AFInstrumentalness" msprop:DbColumnName="AFInstrumentalness" msprop:design-time-name="c10f793a-e611-400b-ad1d-e8acc68fef9f" type="xs:double" minOccurs="0" />
+                  <xs:element name="AFLiveness" msprop:FriendlyName="AFLiveness" msprop:DbColumnName="AFLiveness" msprop:design-time-name="15d013d4-7450-487b-a2fd-0d9ce6b09869" type="xs:double" minOccurs="0" />
+                  <xs:element name="AFValence" msprop:FriendlyName="AFValence" msprop:DbColumnName="AFValence" msprop:design-time-name="64f62e92-bcf4-4e43-b20a-d35c56ac8b57" type="xs:double" minOccurs="0" />
+                  <xs:element name="AFTempo" msprop:FriendlyName="AFTempo" msprop:DbColumnName="AFTempo" msprop:design-time-name="b4e9425e-2d18-4308-833e-639e7c497221" type="xs:double" minOccurs="0" />
+                  <xs:element name="AFTimeSignature" msprop:FriendlyName="AFTimeSignature" msprop:DbColumnName="AFTimeSignature" msprop:design-time-name="cf58243c-5ba9-4f5f-a096-0f75dd4ea5d1" type="xs:double" minOccurs="0" />
+                  <xs:element name="AFKey" msprop:FriendlyName="AFKey" msprop:DbColumnName="AFKey" msprop:design-time-name="77d41748-02fb-40e1-8ef9-42243455a5ec" type="xs:double" minOccurs="0" />
+                  <xs:element name="TrackInfoId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="TrackInfoId" msprop:DbColumnName="TrackInfoId" msprop:design-time-name="13336e92-3346-4b07-9102-c13513db717e" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_FAC_SpotifyCharts_Charts" msprop:design-time-name="e833c454-7ef9-44a2-9384-10b6de71e520" msprop:FriendlyName="FAC_SpotifyCharts_Charts" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="FAC_SpotifyCharts_Charts">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id" msprop:FriendlyName="Id" msprop:DbColumnName="Id" msprop:design-time-name="13c732fb-eaae-4549-be1d-d9ca722b2c7b" type="xs:long" />
+                  <xs:element name="DateId" msprop:FriendlyName="DateId" msprop:DbColumnName="DateId" msprop:design-time-name="78790211-f69f-40e8-a563-42ec8ef0dbf3" type="xs:long" minOccurs="0" />
+                  <xs:element name="ChartId" msprop:FriendlyName="ChartId" msprop:DbColumnName="ChartId" msprop:design-time-name="328f86fd-7354-4810-b92b-2417a8aa4fcd" type="xs:long" minOccurs="0" />
+                  <xs:element name="RegionId" msprop:FriendlyName="RegionId" msprop:DbColumnName="RegionId" msprop:design-time-name="9a501002-4bb0-4036-b25c-fc35ad6c870a" type="xs:long" minOccurs="0" />
+                  <xs:element name="TrackInfoId" msprop:FriendlyName="TrackInfoId" msprop:DbColumnName="TrackInfoId" msprop:design-time-name="f043944f-ca5e-4c01-acc0-585bcffaeacc" type="xs:int" />
+                  <xs:element name="TrendId" msprop:FriendlyName="TrendId" msprop:DbColumnName="TrendId" msprop:design-time-name="a25c70f0-3696-4435-a789-96a375d50b7c" type="xs:long" minOccurs="0" />
+                  <xs:element name="Rank" msprop:FriendlyName="Rank" msprop:DbColumnName="Rank" msprop:design-time-name="54166af2-885c-48ef-ac61-d8e86bc3ea46" type="xs:long" minOccurs="0" />
+                  <xs:element name="Streams" msprop:FriendlyName="Streams" msprop:DbColumnName="Streams" msprop:design-time-name="972bfe5f-ba29-401c-b68c-417a0afb5f3a" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_SpotifyCharts_Charts" />
+          <xs:field xpath="ChartId" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_SpotifyCharts_DateOfChart_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_SpotifyCharts_DateOfChart" />
+          <xs:field xpath="DateId" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_SpotifyCharts_Regions_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_SpotifyCharts_Regions" />
+          <xs:field xpath="RegionId" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_SpotifyCharts_SongTrend_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_SpotifyCharts_SongTrend" />
+          <xs:field xpath="TrendId" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_SpotifyCharts_TrackInfo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_SpotifyCharts_TrackInfo" />
+          <xs:field xpath="TrackInfoId" />
+        </xs:unique>
+        <xs:unique name="dbo_FAC_SpotifyCharts_Charts_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_FAC_SpotifyCharts_Charts" />
+          <xs:field xpath="Id" />
+        </xs:unique>
+        <xs:keyref name="FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_TrackInfo" refer="dbo_DIM_SpotifyCharts_TrackInfo_Constraint1">
+          <xs:selector xpath=".//dbo_FAC_SpotifyCharts_Charts" />
+          <xs:field xpath="TrackInfoId" />
+        </xs:keyref>
+        <xs:keyref name="FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_Regions" refer="dbo_DIM_SpotifyCharts_Regions_Constraint1">
+          <xs:selector xpath=".//dbo_FAC_SpotifyCharts_Charts" />
+          <xs:field xpath="RegionId" />
+        </xs:keyref>
+        <xs:keyref name="FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_Charts" refer="Constraint1">
+          <xs:selector xpath=".//dbo_FAC_SpotifyCharts_Charts" />
+          <xs:field xpath="ChartId" />
+        </xs:keyref>
+        <xs:keyref name="FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_DateOfChart" refer="dbo_DIM_SpotifyCharts_DateOfChart_Constraint1">
+          <xs:selector xpath=".//dbo_FAC_SpotifyCharts_Charts" />
+          <xs:field xpath="DateId" />
+        </xs:keyref>
+        <xs:keyref name="FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_SongTrend" refer="dbo_DIM_SpotifyCharts_SongTrend_Constraint1">
+          <xs:selector xpath=".//dbo_FAC_SpotifyCharts_Charts" />
+          <xs:field xpath="TrendId" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <DSV_SpotifyBI xmlns="" />
+  </Schema>
+</DataSourceView>

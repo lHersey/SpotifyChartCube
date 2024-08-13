@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "POC_Cube_SpotifyCharts", "POC_Cube_SpotifyCharts.dwproj", "{EF00D5C4-E857-456D-BA20-44469AD93458}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF00D5C4-E857-456D-BA20-44469AD93458}.Development|Default.ActiveCfg = Development
+		{EF00D5C4-E857-456D-BA20-44469AD93458}.Development|Default.Build.0 = Development
+		{EF00D5C4-E857-456D-BA20-44469AD93458}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18E84472-E36A-4736-8638-CB4E6E7C3176}
+	EndGlobalSection
+EndGlobal

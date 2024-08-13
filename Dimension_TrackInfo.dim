@@ -1,0 +1,630 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="72a6c78c-e7ee-489e-8d8e-ad8ad961ede6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dimension_TrackInfo</ID>
+  <Name>Dimension_TrackInfo</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-668" scrolltop="-6866" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5292" y="19182" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SpotifyCharts_TrackInfo" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3466" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008a0d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_SpotifyCharts_TrackInfo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-668</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6866</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="51e1270b-fcc7-4c0a-8e89-4932ff76c610">
+    <DataSourceViewID>DSV_SpotifyBI</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="43a63cc9-080d-4aff-b7d7-a82e30c1d89a">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="e7bc568d-aafa-4bc8-b7ac-5a3bfe70fde9">
+      <ID>Track Info Id</ID>
+      <Name>Track Info Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="91f42df4-9331-4eb6-9f36-2bda92dc85d6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="84c94fcf-8223-4ba0-af01-deb71654be69">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>TrackInfoId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="943bd537-24c2-45a4-8ee2-216783dfb4c6">
+          <AttributeID>Track Id</AttributeID>
+          <Name>Track Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ed3d0dd9-fd09-43b6-b38d-92e12f3c49ff">
+          <AttributeID>Title</AttributeID>
+          <Name>Title</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a676d651-d42e-43af-855b-e3656fc6a7b2">
+          <AttributeID>Artist</AttributeID>
+          <Name>Artist</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="56a0c36b-4cf7-424e-8ca3-adce52803552">
+          <AttributeID>Album</AttributeID>
+          <Name>Album</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="74b4e59a-9476-4cb1-bcf8-08e920f25063">
+          <AttributeID>Explicit</AttributeID>
+          <Name>Explicit</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="58310f2f-7667-4362-8ecf-b6f1757bf5c1">
+          <AttributeID>URL</AttributeID>
+          <Name>URL</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8ff4d697-596c-4652-bce4-76b67f5fdd52">
+          <AttributeID>Release Date</AttributeID>
+          <Name>Release Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="232164de-d848-452f-a6c8-d22b78fd0ec8">
+          <AttributeID>Year</AttributeID>
+          <Name>Year</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="69dff2c4-46f4-4dd3-97e7-d4ee0ac50785">
+          <AttributeID>Month</AttributeID>
+          <Name>Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e330c33b-7e9f-4be8-870e-5216baadcaab">
+          <AttributeID>Day</AttributeID>
+          <Name>Day</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ef684e1a-b124-4233-9313-0ab8da653d3c">
+          <AttributeID>Day Name</AttributeID>
+          <Name>Day Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ae55870d-6813-485d-ab52-5c791cc6c53e">
+          <AttributeID>Month Name</AttributeID>
+          <Name>Month Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="787bbfce-2068-4405-84c2-34a0cf56a94d">
+          <AttributeID>Quarter</AttributeID>
+          <Name>Quarter</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5de1d79c-3fef-4f71-b90d-2d7da1252407">
+          <AttributeID>Popularity</AttributeID>
+          <Name>Popularity</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="34b3ef72-71e7-4cce-85f2-e0a96507620f">
+          <AttributeID>AF Mode</AttributeID>
+          <Name>AF Mode</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e1ad3874-78bc-4475-b4ff-f4d40f55789d">
+          <AttributeID>AF Loudness</AttributeID>
+          <Name>AF Loudness</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e11de66e-1b03-4f19-a190-48e9ecd6c74f">
+          <AttributeID>AF Danceability</AttributeID>
+          <Name>AF Danceability</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2c11ea92-e9e4-4143-ad62-87f68b001661">
+          <AttributeID>AF Energy</AttributeID>
+          <Name>AF Energy</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8bb4d60c-73ac-49c1-9d24-d2e37f09c5b0">
+          <AttributeID>AF Speechiness</AttributeID>
+          <Name>AF Speechiness</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4d7dff9f-7a40-49b0-a3ff-171ea1b36cfc">
+          <AttributeID>AF Acousticness</AttributeID>
+          <Name>AF Acousticness</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a3019f27-9191-4908-83b4-36cb6fa25fa1">
+          <AttributeID>AF Instrumentalness</AttributeID>
+          <Name>AF Instrumentalness</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ea824b37-8b06-43c6-96f4-0a91600c42ef">
+          <AttributeID>AF Liveness</AttributeID>
+          <Name>AF Liveness</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3aa6527a-5976-4e3e-b6c7-8083ecea7c74">
+          <AttributeID>AF Valence</AttributeID>
+          <Name>AF Valence</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1d6c7da9-dd5c-4bee-9095-f1434fdb7ce3">
+          <AttributeID>AF Tempo</AttributeID>
+          <Name>AF Tempo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f3a58fff-1f34-457c-a0a4-f04dce720544">
+          <AttributeID>AF Time Signature</AttributeID>
+          <Name>AF Time Signature</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="51ba5217-dc82-4f2d-a23a-348484ee245d">
+          <AttributeID>AF Key</AttributeID>
+          <Name>AF Key</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2c6c0d0a-2846-4c3d-85f1-d195275db042">
+      <ID>Track Id</ID>
+      <Name>Track Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="94fb8e6b-56a4-4234-9c52-e5c866bf654e">
+          <DataType>WChar</DataType>
+          <DataSize>64</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f0161ec-ae45-4003-81c7-2f5d5f7b4861">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>TrackId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6322588e-ffbc-45c7-b78c-86d5052417f0">
+      <ID>Title</ID>
+      <Name>Title</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="12469305-90b9-4056-832c-de63fe01c4ec">
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="befe7165-4253-4d53-9f8c-d18c90bb3647">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>Title</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1a3684fd-4111-45c9-9d85-87c2a88a68b0">
+      <ID>Artist</ID>
+      <Name>Artist</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a43beaeb-034b-42bd-8a9b-36cbf6566535">
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5ca125cc-3bf8-4db5-9208-e158b2dd6039">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>Artist</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fe0b3953-5f15-4129-9289-650c2032baaf">
+      <ID>Album</ID>
+      <Name>Album</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="41968629-2486-48c3-83b7-266d17eb3175">
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1f0958dc-0d7b-451f-9952-b3605ed4c9cc">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>Album</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b206b8a9-43d7-4d80-8436-4668cc7cf78e">
+      <ID>Explicit</ID>
+      <Name>Explicit</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="418a74aa-1fb6-4247-8a3a-f27efd06636c">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d71af411-c78d-40ce-bf97-6fb1a5b94efe">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>Explicit</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="13498ee7-ef37-407a-aa91-3c84f21d8086">
+      <ID>URL</ID>
+      <Name>URL</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="882c78bf-9142-4044-a6b0-86b280b44833">
+          <DataType>WChar</DataType>
+          <DataSize>300</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e7f57edf-54f2-4c42-8468-d418e968292f">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>URL</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bfce95d2-3b3e-40c5-bbbf-38d6cc4cbe8a">
+      <ID>Release Date</ID>
+      <Name>Release Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c6b924fe-ef72-4f86-8206-77695a30b3ff">
+          <DataType>WChar</DataType>
+          <DataSize>64</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="164908b7-1e0b-4c6b-8a87-4c43488bbb53">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>ReleaseDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0ec909d5-d5da-4d22-bd93-e338a30f5413">
+      <ID>Year</ID>
+      <Name>Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="19939db3-e587-4428-ad1b-74bd9427b271">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4b524fc5-3087-4a80-bfbf-aab38c87d81a">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="28b36f84-ba55-42c0-ba7a-81871d344460">
+      <ID>Month</ID>
+      <Name>Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="082094f2-33cf-4585-b9e7-49b14f492101">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cbe71ea5-0f12-457c-bf74-83dae1daf3a5">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>Month</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="504e5666-9555-4a9b-87dc-b1fc6d20a4c2">
+      <ID>Day</ID>
+      <Name>Day</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="854ad243-2f37-479e-af51-450913e12967">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c8a0c4b1-1ba1-4046-a1c2-97fedafd0633">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>Day</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0e7ec5fe-61bb-40df-8ae9-37411190b600">
+      <ID>Day Name</ID>
+      <Name>Day Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8da441af-09e2-4daa-8acc-05bf5e56fc8f">
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32d8528d-297a-4d37-8432-0531771072b5">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>DayName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="615de248-b30a-4ae0-a0ae-f9ebdce8452c">
+      <ID>Month Name</ID>
+      <Name>Month Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7b53c4c2-dd1f-49f9-81f0-bbfe43f1e1fe">
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1a21060f-7358-411a-88e9-61ebcb36c704">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>MonthName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="79ec240c-3a12-41a6-b700-48e1d54076ab">
+      <ID>Quarter</ID>
+      <Name>Quarter</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ba2f0e70-2bd7-4879-b7c7-2dee998ad018">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6b1f8e2e-a42a-4ca7-8ebc-d8993f5b332f">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>Quarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d8b31eab-71fd-41b8-a007-dd8045ed581b">
+      <ID>Popularity</ID>
+      <Name>Popularity</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fb8394f1-408a-4f60-a723-400cd53aa2ff">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ec9dc07f-32f6-4ecd-9b56-8b5fa2dab11e">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>Popularity</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="df845304-1659-4867-a2cf-fdd0b7dec7cc">
+      <ID>AF Mode</ID>
+      <Name>AF Mode</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e1b0ef6f-a94a-4fab-9c85-470f5d689f18">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3f4ef9fe-847a-4dec-b7c9-b488b85f8f35">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>AFMode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="29de5546-1015-42e0-8ba6-135e9af23643">
+      <ID>AF Loudness</ID>
+      <Name>AF Loudness</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="03ba8df9-375f-46c8-a2dc-f0ff16dec061">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3febe6a1-1170-409c-9aa6-da13c4445d64">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>AFLoudness</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d746a1fc-4798-4712-9e8f-9d3a65d07821">
+      <ID>AF Danceability</ID>
+      <Name>AF Danceability</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="46f941ef-854f-4823-a250-14599851e163">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c7e0e0ce-aeaa-4d11-987d-b6c1286798a6">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>AFDanceability</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="68432e31-d13f-4d0d-9b6c-77f1e6fdc6e5">
+      <ID>AF Energy</ID>
+      <Name>AF Energy</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="486e42e4-462f-436e-8a7f-18a354287bee">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="da934531-38d7-418a-858b-08a98adbd044">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>AFEnergy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5926265e-f64c-4446-8abc-80d4a4c1969c">
+      <ID>AF Speechiness</ID>
+      <Name>AF Speechiness</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a8864c3f-8ca1-455c-a080-9c73e7b277ae">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e440f51e-0772-41c5-a7b7-1321f29ebfbc">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>AFSpeechiness</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="db4fbd98-541e-447d-baf5-2c4cef2093d1">
+      <ID>AF Acousticness</ID>
+      <Name>AF Acousticness</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ad291a38-cc67-49cc-b1b5-c7914091d823">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c2549e9d-81a8-4130-b080-344ea1851a5f">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>AFAcousticness</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="898be9ab-c059-4b0b-9536-f0dddf3d45b1">
+      <ID>AF Instrumentalness</ID>
+      <Name>AF Instrumentalness</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ad118e54-bba2-49ef-bb25-3313a674a8cc">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="09eb7485-2f29-400d-becf-744291a2fe5a">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>AFInstrumentalness</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2fc1434b-2f9d-46a8-9c60-120ba2d18753">
+      <ID>AF Liveness</ID>
+      <Name>AF Liveness</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6cb79cd7-7764-4bab-8dce-8f4aefcc67af">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8a15d2cb-6619-4942-a1ef-53e3a6939315">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>AFLiveness</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3f3639f2-992a-4429-95b4-53459e4203f8">
+      <ID>AF Valence</ID>
+      <Name>AF Valence</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8f7286d8-9b3f-4102-8022-3d3459f09a34">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="791a1b7e-0cd5-462d-882c-64b0c94a1f4f">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>AFValence</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2fc7a287-06a5-4ee5-9e02-20954e87f8fb">
+      <ID>AF Tempo</ID>
+      <Name>AF Tempo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6f8b8de9-812c-4db5-a46a-a7423d667c51">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bc9b4e30-deb5-49b8-8b47-85e8d3209eb3">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>AFTempo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f2fe0b9b-3c58-45c3-a1f5-b5bdf5fb2ccf">
+      <ID>AF Time Signature</ID>
+      <Name>AF Time Signature</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="72132ca4-9bfa-402e-bfaf-f556aa45458b">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cea56a10-0c1e-426f-bf22-10e8ebbe43b9">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>AFTimeSignature</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="da5a3b37-8c50-461c-92b1-cf0df7083ccf">
+      <ID>AF Key</ID>
+      <Name>AF Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="09d00366-9206-4b48-a162-01f5afbbb468">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8f5d17d4-03dd-40a3-b351-be0cd4ce7fce">
+            <TableID>dbo_DIM_SpotifyCharts_TrackInfo</TableID>
+            <ColumnID>AFKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

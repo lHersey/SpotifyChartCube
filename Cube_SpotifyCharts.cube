@@ -1,0 +1,528 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="911d7dd8-628d-403e-9581-f5ce9f96aa89" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Cube_SpotifyCharts</ID>
+  <Name>Cube_SpotifyCharts</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="2" scrolltop="-3365" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="87" x="12488" y="19182" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SpotifyCharts_TrackInfo" left="5187" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3466" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008a0d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_SpotifyCharts_TrackInfo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SpotifyCharts_SongTrend" left="2720" top="13332" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1468" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000bc050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_SpotifyCharts_SongTrend" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SpotifyCharts_DateOfChart" left="20" top="7400" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="3532" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000cc0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_SpotifyCharts_DateOfChart" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FAC_SpotifyCharts_Charts" left="5420" top="7400" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="3532" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000cc0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FAC_SpotifyCharts_Charts" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SpotifyCharts_Charts" left="10820" top="8432" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="1468" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000bc050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_SpotifyCharts_Charts" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SpotifyCharts_Regions" left="8120" top="13332" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="1468" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000bc050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_SpotifyCharts_Regions" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6521" top="4501" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_TrackInfo]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6920" y="5000" />
+              <point x="6920" y="7400" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3821" top="10632" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="2299" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_SongTrend]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="4" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4220" y="13332" />
+              <point x="4220" y="12132" />
+              <point x="5820" y="12132" />
+              <point x="5820" y="10932" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="8767" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_DateOfChart]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="17" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3020" y="9166" />
+              <point x="5420" y="9166" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8120" top="8767" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_Charts]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="12" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10820" y="9166" />
+              <point x="8420" y="9166" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7170" top="10632" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="2850" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FAC_SpotifyCharts_Charts_DIM_SpotifyCharts_Regions]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="4" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9620" y="13332" />
+              <point x="9620" y="12132" />
+              <point x="7470" y="12132" />
+              <point x="7470" y="10932" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>2</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3365</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>87</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="f155bcd7-9787-40d3-aa06-cada0c7216d1">
+      <ID>Dimension_Trend</ID>
+      <Name>Dimension_Trend</Name>
+      <DimensionID>Dimension_Trend</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2708fd5c-3c41-4b31-974c-770de0b7a702">
+          <AttributeID>Trend Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="afa2bbd0-5c06-40f7-a036-2fd7fdf52327">
+          <AttributeID>Trend</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f46af028-6999-4694-b55d-1fd91bdb430c">
+      <ID>Dimension_DateOfChart</ID>
+      <Name>Dimension_DateOfChart</Name>
+      <DimensionID>Dimension_DateOfChart</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="19fab4f0-4a1b-4a16-a90e-2d2c4a19ad99">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6932b2fe-c03e-406b-977e-0dd58b6ec55c">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="38e62702-eec9-44c6-9514-d0af17f36cb1">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9924c746-901d-4221-a59c-34e286d248b2">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="62031749-a80b-4aa9-a0dc-cbb8c6c9a0f8">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="117969d2-c352-4116-b85e-8598489aa9c3">
+          <AttributeID>Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3b103872-8c5a-4bee-969e-dbe458cb2e0e">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="117f634c-64b3-4ad0-8707-04a56aa67a65">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="142cf3a4-448b-4984-b9dd-bdf2ded5c551">
+      <ID>Dimension_Chart</ID>
+      <Name>Dimension_Chart</Name>
+      <DimensionID>Dimension_Chart</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f34999fa-072f-486d-b7a3-fa3f016a93eb">
+          <AttributeID>Chart Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="39fc1c9b-613d-4ac0-99d2-a0684916338b">
+          <AttributeID>Chart Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e0607f3a-298c-42dd-aba6-dde205b35ad8">
+      <ID>Dimension_Region</ID>
+      <Name>Dimension_Region</Name>
+      <DimensionID>Dimension_Region</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="66d11a04-2990-4e5f-81c9-b4369bb744fc">
+          <AttributeID>Region Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="44b1f24f-a994-47aa-aaf0-8aa02f963f47">
+          <AttributeID>Region Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b11c2f32-3b1a-4a90-a13e-e3e167fa59b5">
+      <ID>Dimension_TrackInfo</ID>
+      <Name>Dimension_TrackInfo</Name>
+      <DimensionID>Dimension_TrackInfo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b9bd59ed-795f-4d6f-9b75-3bc50c8b2902">
+          <AttributeID>Track Info Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a6b35c4f-47c1-4b2c-8720-31f5ef4ac026">
+          <AttributeID>Track Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5bf7cee9-af43-45c9-89ef-ec27a6f628ac">
+          <AttributeID>Title</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d0cd8394-4e0c-48b3-b4b6-26c79edd8244">
+          <AttributeID>Artist</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ab57858f-2fef-4b33-b6dd-6c051c11448b">
+          <AttributeID>Album</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0880b5c5-65f4-4a27-9879-8b0dfaef7f92">
+          <AttributeID>Explicit</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e3a7d927-3a7d-45d4-b203-bd81f7801e99">
+          <AttributeID>URL</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="446369ab-ea1e-4e98-87df-23c55d966546">
+          <AttributeID>Release Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d71ad80f-673d-42f0-85ce-633f4637eb32">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f8f2a562-7c95-403c-84e7-f8bcafcadc95">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3c7d0280-6d1c-4f73-8555-baf960affea3">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="84226fbe-1f1c-4b88-8a6d-79f79ff74320">
+          <AttributeID>Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e700bcc6-58a7-43f9-995b-943e0ff5f94a">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="deb21d64-efe9-4720-a426-26b0d0f4ea5d">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8b82e32b-6b3b-4e4c-bf29-b407f9b3eaf9">
+          <AttributeID>Popularity</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d707a5b7-5a56-4550-8dfa-ee35666abe3c">
+          <AttributeID>AF Mode</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bb69fce6-fc2c-4a19-af1d-b93b094eecde">
+          <AttributeID>AF Loudness</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9c0ec2db-ca81-4d2b-ae2c-d56875888ccf">
+          <AttributeID>AF Danceability</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3e25ee9b-d779-436e-ac81-3604fc4cd0dd">
+          <AttributeID>AF Energy</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3f53ff01-3d78-4f6a-b7d9-06777f565401">
+          <AttributeID>AF Speechiness</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fe93d158-109f-4318-9c13-c751a53823f1">
+          <AttributeID>AF Acousticness</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dc0643ba-f898-4851-bded-0410b9f69eba">
+          <AttributeID>AF Instrumentalness</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da597b73-b7a2-4119-a19b-fe870bd9a35f">
+          <AttributeID>AF Liveness</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0ea45f4d-645a-4789-9bd7-a92237d6204c">
+          <AttributeID>AF Valence</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1124acf0-d602-4c33-9482-e73a9699241e">
+          <AttributeID>AF Tempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b7a799e0-5384-4faf-ae54-a7cd189c2220">
+          <AttributeID>AF Time Signature</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="735a7bb0-2063-472b-ae27-d042c7a620ac">
+          <AttributeID>AF Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="08acb193-0352-455a-aa58-1a4b6d9f4ecd">
+      <ID>FAC Spotify Charts Charts</ID>
+      <Name>FAC Spotify Charts Charts</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="ac415ef7-65c3-45c7-829b-ad6d14cc53df">
+          <ID>Rank</ID>
+          <Name>Rank</Name>
+          <Source dwd:design-time-name="b8cc611b-7e6a-4627-ba1d-5eb1e16125ac">
+            <DataType>BigInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a79f5ac9-39c0-4152-9afe-34e46aca7315">
+              <TableID>dbo_FAC_SpotifyCharts_Charts</TableID>
+              <ColumnID>Rank</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="143f8ad5-c257-41e5-98ff-8a978c538740">
+          <ID>Streams</ID>
+          <Name>Streams</Name>
+          <Source dwd:design-time-name="3033dcca-82a2-477d-b0c5-1bed594bf6af">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="25d98c2f-cbcc-43e6-9cb6-9e5d96b01484">
+              <TableID>dbo_FAC_SpotifyCharts_Charts</TableID>
+              <ColumnID>Streams</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5540924d-6200-4cc6-bb77-5aaaacb22324">
+          <ID>FAC Spotify Charts Charts Count</ID>
+          <Name>FAC Spotify Charts Charts Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="06143268-6a9c-4f25-98bd-71c323a51db0">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="d8e0df40-3c4b-4e7f-a0eb-92d1f3cdf849">
+              <TableID>dbo_FAC_SpotifyCharts_Charts</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ae746350-c9bb-426c-b706-0bcfe5efde8e">
+          <CubeDimensionID>Dimension_Trend</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="81ad0042-ec0a-450d-aab3-7095ede8ea96">
+              <AttributeID>Trend Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1e9a2b5c-da60-4f96-b31b-a24ec2bd5aa1">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="407199de-0fe5-443f-afb0-dcb5b2e79aae">
+                    <TableID>dbo_FAC_SpotifyCharts_Charts</TableID>
+                    <ColumnID>TrendId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1dc4abc4-e3e8-4c66-a8dd-9bd021ac19bd">
+          <CubeDimensionID>Dimension_DateOfChart</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e9c8e2f9-7cd3-4c45-979b-0c6215e03100">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="61c7bc48-1670-4022-a5a6-016a847a6b1d">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="083ac564-ce69-4bca-aab1-c5d2515c8824">
+                    <TableID>dbo_FAC_SpotifyCharts_Charts</TableID>
+                    <ColumnID>DateId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="584daf89-0f7c-44ad-bd8c-1e2e55066e66">
+          <CubeDimensionID>Dimension_Chart</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="71a0878f-144a-4cd5-8b24-d2af1caaaf48">
+              <AttributeID>Chart Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ff34eed1-107d-492a-a766-7b0115c57c0b">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d3ef6730-7ec7-4a31-ab0d-80c7bcb5cb6d">
+                    <TableID>dbo_FAC_SpotifyCharts_Charts</TableID>
+                    <ColumnID>ChartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="626b1c56-1220-4801-a952-e62bb9f7218e">
+          <CubeDimensionID>Dimension_Region</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="98cefcfb-97f6-4663-bc7d-7bf987a8b40d">
+              <AttributeID>Region Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="22dbe14f-fa31-4784-85c1-024660c83e2b">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="95f83bb7-b734-4e7c-9523-ddbe8ab4b305">
+                    <TableID>dbo_FAC_SpotifyCharts_Charts</TableID>
+                    <ColumnID>RegionId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8866aece-653f-4bd0-a032-67144a5e847e">
+          <CubeDimensionID>Dimension_TrackInfo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7c88da8b-f6a5-4539-a2b9-c5e3a04b0fbb">
+              <AttributeID>Track Info Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="493bf4dd-fb21-4254-a511-2d6841486b97">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="14934cdb-f5eb-4107-b2d5-7fadaf697964">
+                    <TableID>dbo_FAC_SpotifyCharts_Charts</TableID>
+                    <ColumnID>TrackInfoId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="f9157e45-fea0-447e-8663-959296683d0f">
+    <DataSourceViewID>DSV_SpotifyBI</DataSourceViewID>
+  </Source>
+</Cube>
